@@ -23,7 +23,7 @@ services:
         links:
           - mysql
     mysql:
-        image: mariadb:10
+        image: mysql/mysql-server
         container_name: mysql
         restart: always
         ports:
